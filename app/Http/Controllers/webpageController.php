@@ -9,4 +9,8 @@ use Illuminate\Support\Str;
 
 class webpageController extends Controller
 {
+    public function index()
+    {
+        return view('welcome');
+    }
 }

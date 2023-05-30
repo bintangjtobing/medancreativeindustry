@@ -5,8 +5,10 @@
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
-    <meta name="author" content="SemiColonWeb">
-    <meta name="description" content="">
+    <meta name="author" content="Medan Creative Industry">
+    <meta name="description"
+        content="Living in creative industry by Medan Creative Industry. Managed by: Boxity Central Indonesia, Meand Creative Group, Serikat Kreatif
+        Demokrasi, and Komunitas Suka Desain.">
 
     <!-- Font Imports -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,6 +25,8 @@
 
     <!-- Niche Demos -->
     <link rel="stylesheet" href="{!! asset('webpage/demos/conference/conference.css?' . rand(10000, 99999)) !!}">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/danv3vc3x/image/upload/v1685472300/icon_zptzpo.png"
+        type="image/png">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{!! asset('webpage/css/custom.css?' . rand(10000, 99999)) !!}">
@@ -30,7 +34,37 @@
 
     <!-- Document Title
  ============================================= -->
-    <title>Medan Creative Industry</title>
+    <title>MEDANCREATIVEBIGDAY2023</title>
+    {{-- Meta --}}
+    <meta name="og:title" property="og:title" content="MEDANCREATIVEBIGDAY2023" />
+    <meta name="og:url" property="og:url" content="{{ Request::url() }}" />
+    <meta name="og:type" property="og:type" content="website" />
+    <meta name="og:image" property="og:image"
+        content="https://res.cloudinary.com/danv3vc3x/image/upload/v1685476629/cover_mcbd2023_aiwl5n.jpg" />
+    <meta name="og:description" property="og:description"
+        content="Living in creative industry by Medan Creative Industry. Managed by: Boxity Central Indonesia, Meand Creative Group, Serikat Kreatif
+        Demokrasi, and Komunitas Suka Desain." />
+    <meta name="twitter:card" content="MEDANCREATIVEBIGDAY2023" />
+    <meta name="twitter:title" property="og:title" content="MEDANCREATIVEBIGDAY2023" />
+    <meta name="twitter:url" property="og:url" content="{{ Request::url() }}" />
+    <meta name="twitter:type" property="og:type" content="website" />
+    <meta name="twitter:image" property="og:image"
+        content="https://res.cloudinary.com/danv3vc3x/image/upload/v1685476629/cover_mcbd2023_aiwl5n.jpg" />
+    <meta name="twitter:description" property="og:description"
+        content="Living in creative industry by Medan Creative Industry. Managed by: Boxity Central Indonesia, Meand Creative Group, Serikat Kreatif
+        Demokrasi, and Komunitas Suka Desain." />
+    <link rel="canonical" href="{{ Request::url() }}/" />
+    <link rel="shortcut icon" href="https://res.cloudinary.com/danv3vc3x/image/upload/v1685472300/icon_zptzpo.png"
+        type="image/png" sizes="64x64" />
+    <meta name="og:email" content="info@medancreativeindustry.com" />
+    <meta name="og:phone_number" content="02129021873" />
+    <meta name="og:latitude" content="-6.1465558" />
+    <meta name="og:longitude" content="106.7843094" />
+    <meta name="og:street-address" content="Grand Silipi Tower, Jl. Jend Jl. Jelambar Barat No.22-24" />
+    <meta name="og:locality" content="DKI Jakarta" />
+    <meta name="og:region" content="ID" />
+    <meta name="og:postal-code" content="11480" />
+    <meta name="og:country-name" content="Indonesia" />
 
 </head>
 
@@ -51,11 +85,11 @@
                         <!-- Logo
       ============================================= -->
                         <div id="logo" class="me-lg-0">
-                            <a href="demo-conference.html" data-scrollto="#slider">
+                            <a href="/" data-scrollto="#slider">
                                 <img class="logo-default" srcset="{!! asset('webpage/demos/conference/images/logo.png') !!}, {!! asset('webpage/demos/conference/images/logo@2x.png') !!} 2x"
-                                    src="{!! asset('webpage/demos/conference/images/logo@2x.png?' . rand(10000, 99999)) !!}" alt="Canvas Logo">
+                                    src="{!! asset('webpage/demos/conference/images/logo@2x.png?' . rand(10000, 99999)) !!}" alt="MCBD2023 Logo">
                                 <img class="logo-dark" srcset="{!! asset('webpage/demos/conference/images/logo-dark.png') !!}, {!! asset('webpage/demos/conference/images/logo-dark@2x.png') !!} 2x"
-                                    src="{!! asset('webpage/demos/conference/images/logo-dark@2x.png?' . rand(10000, 99999)) !!}" alt="Canvas Logo">
+                                    src="{!! asset('webpage/demos/conference/images/logo-dark@2x.png?' . rand(10000, 99999)) !!}" alt="MCBD2023 Logo">
                             </a>
                         </div><!-- #logo end -->
 
@@ -71,7 +105,7 @@
 
                             <ul class="menu-container one-page-menu" data-easing="easeInOutExpo" data-speed="1250"
                                 data-offset="160">
-                                <li class="menu-item"><a class="menu-link ls-1 text-uppercase" href="#"
+                                <li class="menu-item"><a class="menu-link ls-1 text-uppercase" href="#section-about"
                                         data-href="#section-about">
                                         <div>About</div>
                                     </a></li>
@@ -130,14 +164,16 @@
                         <div class="row justify-content-between mt-5 col-mb-50">
                             <div class="col-lg-6 parallax" data-0="transform: translateY(0px); opacity: 1"
                                 data-300="transform: translateY(50px); opacity: 0">
-                                <span class="gradient-underline h4">SemiColonWeb 2021</span>
-                                <h2 class="fw-bold display-2 mb-0">Canvas Development Conference.</h2>
+                                <span class="gradient-underline h4">Medan Creative Industry Presents</span>
+                                <h2 class="fw-bold display-2 mb-0">MEDANCREATIVE<br>#BIGDAY2023</h2>
                             </div>
                             <div class="col-lg-6 d-flex align-items-lg-end flex-column parallax text-start text-lg-end mb-5 mb-lg-0"
                                 data-0="transform: translateY(0px)" data-700="transform: translateY(-50px)">
                                 <div class="mt-auto">
-                                    <h2 class="mb-2 gradient-text">March 17-19, 2021</h2>
-                                    <h4 class="fw-normal">795 Folsom Ave, Suite 600<br>San Francisco, CA 94107</h4>
+                                    <h2 class="mb-2 gradient-text" style="font-weight:bolder;">October 13-14, 2023
+                                    </h2>
+                                    <h4 class="fw-normal">Tiara Convention Hall - Tulip Room<br>Jl. Cut Mutia No.1,
+                                        Sumatera Utara 20152, Indonesia</h4>
                                     <a href="#section-tickets"
                                         class="button ls-1 text-uppercase fw-semibold button-xxlarge button-white button-gradient m-0"
                                         data-scrollto="#section-tickets">Get Tickets Now</a>
@@ -162,47 +198,64 @@
                     <div class="container">
 
                         <div class="mb-5 dark">
-                            <span class="display-4 fw-bold gradient-underline font-primary">About The Conference</span>
+                            <span class="display-4 fw-bold gradient-underline font-primary">Event Detail</span>
                         </div>
 
                         <div class="clear"></div>
 
                         <div class="row justify-content-around dark">
                             <div class="col-md-6">
-                                <h4 class="font-body ls-1 text-uppercase">About Meetup</h4>
-                                <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Commodi, vel omnis repellendus mollitia, explicabo, maiores quisquam numquam quia
-                                    reiciendis sit, accusantium atque ex animi perspiciatis ab odit earum assumenda
-                                    aliquid.</p>
-                                <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Commodi, vel omnis repellendus mollitia, explicabo, maiores quisquam numquam quia
-                                    reiciendis sit, accusantium atque ex animi perspiciatis ab odit earum assumenda
-                                    aliquid.</p>
-                                <div class="row mt-5">
-                                    <div class="col-6 col-sm-3">
-                                        <div class="counter gradient-text"><span data-from="0" data-to="3"
-                                                data-refresh-interval="1" data-speed="400"></span></div>
-                                        <h5 class="font-body">Day Event</h5>
-                                    </div>
+                                <p class="text-white-50">
+                                    Permasalahan yang saat ini yang exist di Indonesia, dan maupun di global, oleh, dan
+                                    kepada Startup, dan pelaku kreativitas yaitu ketidakbijakan dalam memutuskan
+                                    masuknya investment dalam pelaku startup ataupun pelaku kreativitas, sehingga
+                                    mengakibatkan kurangnya inovasi produk, menurunnya inovasi keuangan dalam
+                                    meningkatkan valuasi startup, kekurangan arah dalam mencapai visi tiap pelaku
+                                    kreativitas dan startup. Oleh karena itu, perlu adanya kesadaran semua pihak untuk
+                                    mengembangkan kreativitas dan pelaku startup yang sudah ada di Kota Medan.
+                                </p>
+                                <p class="text-white-50">
+                                    Dalam rangka meningkatkan semangat dan kemampuan pemuda/i dalam bidang karya
+                                    kreativitas, kurangnya suasana atmosfir, sedikit banyaknya pemuda yang berbakat dan
+                                    bertalenta kreatif yang tidak mendapat dukungan perhatian dari pihak instansi,
+                                    pemerintah dan yang lainnya, serta fasilitas, kurang adanya wadah untuk kolaborasi
+                                    antar pemuda berbakat serta untuk menjadi ajang bukti bahwa kota Medan masih
+                                    memiliki jiwa kreativitas yang tinggi dan memiliki jiwa mandiri dalam berbisnis
+                                    usaha yang tinggi di era modern 4.0. Pameran dan latihan pitching ini juga bertujuan
+                                    untuk appreciation pada pemuda/i yang masih memiliki jiwa bergejolak pada
+                                    kreativitas akan karya yang ditampilkan, dan sebagai market engagement & evaluation
+                                    bagi pelaku startup yang memiliki potensi bisnis besar di masa 2-5 tahun kedepan.
+                                </p>
+                                <p class="text-white-50">
+                                    Dengan diadakannya pameran ini, diharapkan para pengunjung dapat mengapresiasi karya
+                                    seni dari para mahasiswa/i dan siswa/i, dan dapat mengenal lebih lagi dengan startup
+                                    yang mungkin saja pengunjung minat untuk bisa berkontribusi dalam gabung ke startup
+                                    maupun, menjadi market-relation yang baik pada pelaku startup di kota Medan.
+                                    Berkaitan dengan hal tersebut di atas, maka kami perlu mengadakan kegiatan pameran
+                                    karya dan pitching practice di lokasi Pos Bloc yang beralamat di Kesawan, Kota Medan
+                                    dengan judul Medan Creative Big Day 2023 yang diselenggarakan oleh pelaku
+                                    startup yang bernama, Boxity, dan MeAndCreative Group.
+                                </p>
+                                <h4 class="font-body ls-1 text-uppercase">Tujuan Event</h4>
+                                <ul>
+                                    <li>
+                                        Pusat apresiasi, dan kesadaran akan masih ada nya pelaku kreatif yang
+                                        tersembunyi dan yang berbakat di kota Medan, terhadap pelaku kreatif.
+                                    </li>
+                                    <li>
+                                        Wadah sharing-knowledge, antara pelaku kreatif yang dimulai dari siswa/i,
+                                        mahasiswa/i, dan pengunjung
+                                    </li>
+                                    <li>
+                                        Wadah market-engagement dan market-relation bagi para pelaku startup, dan
+                                        pengunjung.
+                                    </li>
+                                    <li>
+                                        Sharing inovasi bagi pelaku startup, pelaku kreatif, dan pengunjung dalam
+                                        pengembangan produk bisnis di kota Medan.
+                                    </li>
+                                </ul>
 
-                                    <div class="col-6 col-sm-3">
-                                        <div class="counter gradient-text"><span data-from="1" data-to="11"
-                                                data-refresh-interval="2" data-speed="600"></span>+</div>
-                                        <h5 class="font-body">Speakers</h5>
-                                    </div>
-
-                                    <div class="col-6 col-sm-3">
-                                        <div class="counter gradient-text"><span data-from="1" data-to="23"
-                                                data-refresh-interval="3" data-speed="1200"></span>+</div>
-                                        <h5 class="font-body">Sponsors</h5>
-                                    </div>
-
-                                    <div class="col-6 col-sm-3">
-                                        <div class="counter gradient-text"><span data-from="100" data-to="500"
-                                                data-refresh-interval="50" data-speed="1500"></span>+</div>
-                                        <h5 class="font-body">Participants</h5>
-                                    </div>
-                                </div>
                             </div>
 
                             <div class="col-md-5">
@@ -231,8 +284,6 @@
                     <div class="container">
                         <div class="mb-5 dark d-flex flex-wrap justify-content-between align-items-center">
                             <span class="display-4 fw-bold gradient-underline mb-0">Speakers</span>
-                            <a href="#" class="button ls-1 text-uppercase fw-semibold button-effect m-0">Show
-                                All Speakers</a>
                         </div>
                         <div class="row mx-auto dark" style="max-width: 1000px;">
                             <a href="#" class="team col-lg-4 col-sm-6 mb-5">
@@ -241,7 +292,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
-                                        <h4 class="gradient-text">Gunther Beard</h4><span>Software Designer</span>
+                                        <h4 class="gradient-text">Bintang Tobing</h4><span>CEO Boxity</span>
                                     </div>
                                 </div>
                             </a>
@@ -252,7 +303,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
-                                        <h4 class="gradient-text">Desmond Eagle </h4><span>Canvas Business</span>
+                                        <h4 class="gradient-text">Aditya, ST</h4><span>DreamARCH</span>
                                     </div>
                                 </div>
                             </a>
@@ -263,7 +314,8 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
-                                        <h4 class="gradient-text">Will Barrow</h4><span>Cloud Management</span>
+                                        <h4 class="gradient-text">Heri Siregar</h4><span>Founder MeAndCreative
+                                            Group</span>
                                     </div>
                                 </div>
                             </a>
@@ -274,63 +326,8 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
-                                        <h4 class="gradient-text">Pelican Steve</h4><span>Community</span>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <a href="#" class="team col-lg-4 col-sm-6 mb-5">
-                                <div class="team-image">
-                                    <img src="{!! asset('webpage/demos/conference/images/speakers/5.jpg?' . rand(10000, 99999)) !!}" alt="John Doe">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title">
-                                        <h4 class="gradient-text">Gunther Beard</h4><span>Software Designer</span>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <a href="#" class="team col-lg-4 col-sm-6 mb-5">
-                                <div class="team-image">
-                                    <img src="{!! asset('webpage/demos/conference/images/speakers/6.jpg?' . rand(10000, 99999)) !!}" alt="John Doe">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title">
-                                        <h4 class="gradient-text">Desmond Eagle </h4><span>Canvas Business</span>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <a href="#" class="team col-lg-4 col-sm-6 mb-5">
-                                <div class="team-image">
-                                    <img src="{!! asset('webpage/demos/conference/images/speakers/7.jpg?' . rand(10000, 99999)) !!}" alt="John Doe">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title">
-                                        <h4 class="gradient-text">Will Barrow</h4><span>Cloud Management</span>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <a href="#" class="team col-lg-4 col-sm-6 mb-5">
-                                <div class="team-image">
-                                    <img src="{!! asset('webpage/demos/conference/images/speakers/8.jpg?' . rand(10000, 99999)) !!}" alt="John Doe">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title">
-                                        <h4 class="gradient-text">Piff Jenkins</h4><span>Community</span>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <a href="#" class="team joinspeaker col-lg-4 col-sm-6 mb-5">
-                                <div class="team-image gradient-bg">
-                                    <img src="{!! asset('webpage/demos/conference/images/speakers/blank.jpg?' . rand(10000, 99999)) !!}" alt="John Doe">
-                                    <i class="bi-plus-circle gradient-text"></i>
-                                </div>
-                                <div class="team-desc" style="z-index: 3;">
-                                    <div class="team-title">
-                                        <h4 class="gradient-text">Join as a Speaker</h4>
+                                        <h4 class="gradient-text">Ronaldo</h4><span>Founder Serikat Kreatif
+                                            Demokrasi</span>
                                     </div>
                                 </div>
                             </a>
@@ -355,20 +352,14 @@
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link active" id="canvas-tab-1" data-bs-toggle="pill"
                                         data-bs-target="#tabs-1" type="button" role="tab"
-                                        aria-controls="canvas-tab-1" aria-selected="true">17th <span
-                                            class="d-none d-md-inline-block">March</span></button>
+                                        aria-controls="canvas-tab-1" aria-selected="true">13th <span
+                                            class="d-none d-md-inline-block">October</span></button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="canvas-tab-2" data-bs-toggle="pill"
                                         data-bs-target="#tabs-2" type="button" role="tab"
-                                        aria-controls="canvas-tab-2" aria-selected="false">18th <span
-                                            class="d-none d-md-inline-block">March</span></button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="canvas-tab-3" data-bs-toggle="pill"
-                                        data-bs-target="#tabs-3" type="button" role="tab"
-                                        aria-controls="canvas-tab-3" aria-selected="false">19th <span
-                                            class="d-none d-md-inline-block">March</span></button>
+                                        aria-controls="canvas-tab-2" aria-selected="false">14th <span
+                                            class="d-none d-md-inline-block">October</span></button>
                                 </li>
                             </ul>
 
@@ -411,7 +402,7 @@
                                             <div class="schedule-time font-primary">12.30 pm</div>
                                         </dt>
                                         <dd class="col-sm-9">
-                                            <div class="schedule-desc">Canvas Rest API<small>- Desmond Eagle</small>
+                                            <div class="schedule-desc">MCBD2023 Rest API<small>- Desmond Eagle</small>
                                             </div>
                                         </dd>
 
@@ -477,68 +468,6 @@
 
                                     </dl>
                                 </div>
-                                <div class="tab-pane fade" id="tabs-3" role="tabpanel"
-                                    aria-labelledby="canvas-tabs-3-tab" tabindex="0">
-                                    <dl class="row dark mb-0">
-
-                                        <dt class="col-sm-3">
-                                            <div class="schedule-time font-primary">9:00 am</div>
-                                        </dt>
-                                        <dd class="col-sm-9">
-                                            <div class="schedule-desc">20 Effective Ways To Build A Better Customer
-                                                Experience</div>
-                                        </dd>
-
-                                        <dt class="col-sm-3">
-                                            <div class="schedule-time font-primary">10.00 am</div>
-                                        </dt>
-                                        <dd class="col-sm-9">
-                                            <div class="schedule-desc">How to Prepare for your Hacked website?<small>-
-                                                    Pelican Steve</small></div>
-                                        </dd>
-
-                                        <dt class="col-sm-3">
-                                            <div class="schedule-time font-primary">10.00 am</div>
-                                        </dt>
-                                        <dd class="col-sm-9">
-                                            <div class="schedule-desc">Inbound Marketing Strategies for
-                                                Entrepreneurs<small>- Max Conversion</small></div>
-                                        </dd>
-
-                                        <dt class="col-sm-3">
-                                            <div class="schedule-time font-primary">11:30 am</div>
-                                        </dt>
-                                        <dd class="col-sm-9">
-                                            <div class="schedule-desc">Delicious Lunch<small>- Cafeteria</small></div>
-                                        </dd>
-
-                                        <dt class="col-sm-3">
-                                            <div class="schedule-time font-primary">2.00 pm</div>
-                                        </dt>
-                                        <dd class="col-sm-9">
-                                            <div class="schedule-desc">FeedBack, Quiz, Interaction &amp; Gifts<small>-
-                                                    Chauffina Carr, Guy Mann</small></div>
-                                        </dd>
-
-                                        <dt class="col-sm-3">
-                                            <div class="schedule-time font-primary">7.00 pm</div>
-                                        </dt>
-                                        <dd class="col-sm-9">
-                                            <div class="row justify-content-between align-items-center">
-                                                <div class="col-sm-9">
-                                                    <div class="schedule-desc">After Party<small>- J W Marriot</small>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-3">
-                                                    <a href="https://maps.google.com" target="_blank"
-                                                        class="button ls-1 text-uppercase fw-semibold button-small button-black button-dark bg-dark mt-2 mt-sm-0 float-none float-sm-right">View
-                                                        Map</a>
-                                                </div>
-                                            </div>
-                                        </dd>
-
-                                    </dl>
-                                </div>
 
                             </div>
                         </div>
@@ -563,26 +492,13 @@
                             <div class="row pricing align-items-center">
 
                                 <div class="col-lg-3 col-sm-6">
-                                    <div class="pricing-box disabled text-center">
+                                    <div class="pricing-box text-center">
                                         <div class="pricing-title title-sm">
                                             <h3 class="text-transform-none ls-0">Early Bird(Full Event)</h3>
-                                            <span>Valid until 28th Feb</span>
+                                            <span>Valid until 28th Sept</span>
                                         </div>
                                         <div class="pricing-price early-bird-pricing font-primary fw-bold">
-                                            <span class="price-unit">&dollar;</span>39
-                                        </div>
-                                        <div class="pricing-persons">
-                                            <select class="required form-select" name="early-bird-person"
-                                                id="early-bird-person">
-                                                <option value="1" selected>1 Person</option>
-                                                <option value="2">2 Persons</option>
-                                                <option value="3">3 Persons</option>
-                                                <option value="4">4 Persons</option>
-                                                <option value="5">5 Persons</option>
-                                                <option value="6">6 Persons</option>
-                                                <option value="7">7 Persons</option>
-                                                <option value="8">8 Persons</option>
-                                            </select>
+                                            <span class="price-unit">IDR</span>50rb
                                         </div>
                                         <div class="pricing-action px-5">
                                             <a href="#"
@@ -596,23 +512,10 @@
                                     <div class="pricing-box text-center">
                                         <div class="pricing-title title-sm">
                                             <h3 class="text-transform-none ls-0">1 Day Pass</h3>
-                                            <span class="text-transform-none">Valid until 19th March</span>
+                                            <span class="text-transform-none">Valid until 12th October</span>
                                         </div>
                                         <div class="pricing-price 1-day-pricing font-primary fw-bold">
-                                            <span class="price-unit">&dollar;</span>29
-                                        </div>
-                                        <div class="pricing-persons">
-                                            <select class="required form-select" name="1-day-pricing-person"
-                                                id="1-day-pricing-person">
-                                                <option value="1" selected>1 Person</option>
-                                                <option value="2">2 Persons</option>
-                                                <option value="3">3 Persons</option>
-                                                <option value="4">4 Persons</option>
-                                                <option value="5">5 Persons</option>
-                                                <option value="6">6 Persons</option>
-                                                <option value="7">7 Persons</option>
-                                                <option value="8">8 Persons</option>
-                                            </select>
+                                            <span class="price-unit">IDR</span>75rb
                                         </div>
                                         <div class="pricing-action px-5">
                                             <a href="#"
@@ -626,23 +529,10 @@
                                     <div class="pricing-box text-center">
                                         <div class="pricing-title title-sm">
                                             <h3 class="text-transform-none ls-0">2 Days Pass</h3>
-                                            <span class="text-transform-none">Valid until 17th March</span>
+                                            <span class="text-transform-none">Valid until 11th October</span>
                                         </div>
                                         <div class="pricing-price 2-day-pricing font-primary fw-bold">
-                                            <span class="price-unit">&dollar;</span>49
-                                        </div>
-                                        <div class="pricing-persons">
-                                            <select class="required form-select" name="2-day-pricing-person"
-                                                id="2-day-pricing-person">
-                                                <option value="1" selected>1 Person</option>
-                                                <option value="2">2 Persons</option>
-                                                <option value="3">3 Persons</option>
-                                                <option value="4">4 Persons</option>
-                                                <option value="5">5 Persons</option>
-                                                <option value="6">6 Persons</option>
-                                                <option value="7">7 Persons</option>
-                                                <option value="8">8 Persons</option>
-                                            </select>
+                                            <span class="price-unit">IDR</span>100rb
                                         </div>
                                         <div class="pricing-action px-5">
                                             <a href="#"
@@ -656,23 +546,10 @@
                                     <div class="pricing-box text-center">
                                         <div class="pricing-title title-sm">
                                             <h3 class="text-transform-none ls-0">Full Event</h3>
-                                            <span class="text-transform-none">Valid until 17th March</span>
+                                            <span class="text-transform-none">Valid until 13th October</span>
                                         </div>
                                         <div class="pricing-price full-pricing font-primary fw-bold">
-                                            <span class="price-unit">&dollar;</span>69
-                                        </div>
-                                        <div class="pricing-persons">
-                                            <select class="required form-select" name="full-pricing-person"
-                                                id="full-pricing-person">
-                                                <option value="1" selected>1 Person</option>
-                                                <option value="2">2 Persons</option>
-                                                <option value="3">3 Persons</option>
-                                                <option value="4">4 Persons</option>
-                                                <option value="5">5 Persons</option>
-                                                <option value="6">6 Persons</option>
-                                                <option value="7">7 Persons</option>
-                                                <option value="8">8 Persons</option>
-                                            </select>
+                                            <span class="price-unit">IDR</span>130rb
                                         </div>
                                         <div class="pricing-action px-5">
                                             <a href="#"
@@ -692,10 +569,9 @@
 
                     <div class="container mt-6">
                         <div class="mx-auto dark text-center" style="max-width: 850px">
-                            <h3 class="display-4 gradient-text">Still Getting Confused?</h3>
-                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nesciunt
-                                sint voluptatibus quibusdam veritatis quos dolorum quasi minus, rerum? Officia explicabo
-                                hic porro voluptatem ducimus dolor, dolore et. Magni, quidem?</p>
+                            <h3 class="display-4 gradient-text">Bingung?</h3>
+                            <p class="lead">Acara kreatif ini dirancang seinformatif dan semenarik mungkin, sehingga
+                                orang dapat belajar tentang tren terkini di industri ini tanpa merasa kewalahan.</p>
                             <a href="#"
                                 class="button ls-1 text-uppercase fw-semibold button-xxlarge button-white button-light button-gradient-hover mt-4">Contact
                                 Us</a>
@@ -715,7 +591,7 @@
 
                         <div class="mx-auto schedule-wrap text-center dark rounded shadow-lg"
                             style="max-width: 1050px; background-color: #000">
-                            <h4 class="font-body mb-5">Gold Sponsors</h4>
+                            <h4 class="font-body mb-5">Heroic Sponsors</h4>
                             <div class="d-flex flex-wrap align-items-center">
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/cnn.svg?' . rand(10000, 99999)) !!}"
                                             alt="Brands"></a></div>
@@ -734,7 +610,7 @@
                                             alt="Brands"></a></div>
                             </div>
                             <div class="line"></div>
-                            <h4 class="font-body mb-5">Silver Sponsors</h4>
+                            <h4 class="font-body mb-5">Diamond Sponsors</h4>
                             <div class="d-flex flex-wrap align-items-center">
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/linkedin.svg?' . rand(10000, 99999)) !!}"
                                             alt="Brands"></a>
@@ -753,7 +629,26 @@
                                 </div>
                             </div>
                             <div class="line"></div>
-                            <h4 class="font-body mb-5">Partners</h4>
+                            <h4 class="font-body mb-5">Platinum Sponsors</h4>
+                            <div class="d-flex flex-wrap align-items-center">
+                                <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/linkedin.svg?' . rand(10000, 99999)) !!}"
+                                            alt="Brands"></a>
+                                </div>
+                                <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/nat-geo.svg?' . rand(10000, 99999)) !!}"
+                                            alt="Brands"></a>
+                                </div>
+                                <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/jetblue.svg?' . rand(10000, 99999)) !!}"
+                                            alt="Brands"></a>
+                                </div>
+                                <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/zillow.svg?' . rand(10000, 99999)) !!}"
+                                            alt="Brands"></a>
+                                </div>
+                                <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/amazon.svg?' . rand(10000, 99999)) !!}"
+                                            alt="Brands"></a>
+                                </div>
+                            </div>
+                            <div class="line"></div>
+                            <h4 class="font-body mb-5">Media Partners</h4>
                             <div class="d-flex flex-wrap align-items-center">
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/ps.svg?' . rand(10000, 99999)) !!}"
                                             alt="Brands"></a></div>
@@ -767,11 +662,14 @@
                                 </div>
                             </div>
                             <div class="line"></div>
-                            <h3 class="gradient-text">Calling all Sponsors!!! Help us to make Our Event a Blast!</h3>
-                            <p class="mx-auto text-muted" style="max-width: 600px">Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit. Fugiat nesciunt sint voluptatibus quibusdam veritatis quos
-                                dolorum quasi minus, rerum? Officia explicabo hic porro voluptatem ducimus dolor, dolore
-                                et. Magni, quidem?</p>
+                            <h3 class="gradient-text" style="text-transform:capitalize;"><b>Memanggil semua
+                                    Sponsor!!!<br>Bantu kami membuat Acara Kami
+                                    Menyenangkan!</b></h3>
+                            <p class="mx-auto text-muted" style="max-width: 600px">Kami dengan senang hati mengundang
+                                Anda untuk mensponsori acara kreatif yang akan datang di Medan pada tahun 2023. Acara
+                                ini akan menampilkan berbagai program, termasuk seminar, pertarungan pitching, kelas
+                                master, pameran seni, permainan, dan banyak lagi. Ini adalah peluang besar untuk
+                                menjangkau banyak kalangan profesional kreatif dan bisnis di Indonesia.</p>
                             <a href="#"
                                 class="button ls-1 text-uppercase fw-semibold button-xlarge button-white button-gradient mt-4">Sponsor
                                 Us?</a>
@@ -788,23 +686,8 @@
     ============================================= -->
                 <div id="section-location" class="section page-section bg-transparent p-0 mb-0"
                     style=" overflow: visible">
-                    <div class="container">
-                        <div class="mb-5 dark d-flex justify-content-between align-items-center">
-                            <span class="display-4 fw-bold gradient-underline mb-0">Venue</span>
-                        </div>
-
-                    </div>
 
                     <div class="position-relative">
-                        <div class="w-100 parallax vh-100" style="top: 0; min-height: 400px"
-                            data-top-top="transform: translateY(100px);"
-                            data-top-center="transform: translateY(0px);">
-                            <div class="gmap h-100" data-address="795 Folsom Ave, CA" data-maptype="ROADMAP"
-                                data-zoom="13" data-scrollwheel="false"
-                                data-markers='[{ address: "795 Folsom Ave, CA", html: "795 Folsom Ave, CA", icon: { image: "{!! asset('webpage/demos/conference/images/map-marker.svg?' . rand(10000, 99999)) !!}", iconsize: [44, 44], iconanchor: [14,44] } }]'
-                                data-styles='[{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#666666"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":10}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]'>
-                            </div>
-                        </div>
                         <div class="container-bg">
                             <div class="container">
                                 <div class="row justify-content-between dark">
@@ -827,74 +710,40 @@
                                             <a class="grid-item" href="{!! asset('webpage/demosconference/images/venue/full/5.jpg?' . rand(10000, 99999)) !!}"
                                                 data-lightbox="gallery-item"><img src="{!! asset('webpage/demos/conference/images/venue/5.jpg?' . rand(10000, 99999)) !!}"
                                                     alt="Gallery Thumb 5"></a>
-                                            <a class="grid-item" href="{!! asset('webpage/demosconference/images/venue/full/6.jpg?' . rand(10000, 99999)) !!}"
-                                                data-lightbox="gallery-item"><img src="{!! asset('webpage/demos/conference/images/venue/6.jpg?' . rand(10000, 99999)) !!}"
+                                            <a class="grid-item" href="{!! asset('webpage/demosconference/images/venue/full/6.png?' . rand(10000, 99999)) !!}"
+                                                data-lightbox="gallery-item"><img src="{!! asset('webpage/demos/conference/images/venue/6.png?' . rand(10000, 99999)) !!}"
                                                     alt="Gallery Thumb 6"></a>
-                                            <a class="grid-item" href="{!! asset('webpage/demosconference/images/venue/full/7.jpg?' . rand(10000, 99999)) !!}"
-                                                data-lightbox="gallery-item"><img src="{!! asset('webpage/demos/conference/images/venue/7.jpg?' . rand(10000, 99999)) !!}"
+                                            <a class="grid-item" href="{!! asset('webpage/demosconference/images/venue/full/7.png?' . rand(10000, 99999)) !!}"
+                                                data-lightbox="gallery-item"><img src="{!! asset('webpage/demos/conference/images/venue/7.png?' . rand(10000, 99999)) !!}"
                                                     alt="Gallery Thumb 7"></a>
-                                            <a class="grid-item" href="{!! asset('webpage/demosconference/images/venue/full/8.jpg?' . rand(10000, 99999)) !!}"
-                                                data-lightbox="gallery-item"><img src="{!! asset('webpage/demos/conference/images/venue/8.jpg?' . rand(10000, 99999)) !!}"
-                                                    alt="Gallery Thumb 9"></a>
-                                            <a class="grid-item" href="{!! asset('webpage/demosconference/images/venue/full/9.jpg?' . rand(10000, 99999)) !!}"
-                                                data-lightbox="gallery-item"><img src="{!! asset('webpage/demos/conference/images/venue/9.jpg?' . rand(10000, 99999)) !!}"
-                                                    alt="Gallery Thumb 10"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 mb-4">
                                         <h3 class="gradient-underline d-inline-flex mb-5">Our Address</h3>
-                                        <h4 class="fw-normal">795 Folsom Ave, Suite 600<br>San Francisco, CA 94107</h4>
-                                        <h4 class="mb-2"> +111-222-33-44</h4>
-                                        <h4 class="mb-2">+222-333-44-55</h4>
-                                        <h4 class="mb-2">no-reply@canvas.com</h4>
+                                        <h4 class="fw-normal">Tiara Convention Hall - Tulip Room<br>Jl. Cut Mutia No.1,
+                                            Sumatera Utara 20152, Indonesia</h4>
+                                        <h4 class="mb-2"> +62 812 6284 5980</h4>
+                                        <h4 class="mb-2">info@mediacreativeindustry.com</h4>
                                     </div>
                                     <div class="col-md-3 mb-4">
                                         <h3 class="gradient-underline d-inline-flex mb-5">Follow Us</h3>
                                         <div class="d-block">
-                                            <a href="#"
+                                            <a href="/social/facebook"
                                                 class="social-icon mb-3 rounded-circle border-0 bg-facebook"
                                                 title="Facebook">
                                                 <i class="fa-brands fa-facebook-f"></i>
                                                 <i class="fa-brands fa-facebook-f"></i>
                                             </a>
 
-                                            <a href="#"
-                                                class="social-icon mb-3 rounded-circle border-0 bg-delicious"
-                                                title="Delicious">
-                                                <i class="fa-brands fa-delicious"></i>
-                                                <i class="fa-brands fa-delicious"></i>
+                                            <a href="/social/instagram"
+                                                class="social-icon mb-3 rounded-circle border-0 bg-instagram"
+                                                title="Instagram">
+                                                <i class="fa-brands fa-instagram"></i>
+                                                <i class="fa-brands fa-instagram"></i>
                                             </a>
-
-                                            <a href="#"
-                                                class="social-icon mb-3 rounded-circle border-0 bg-paypal"
-                                                title="Paypal">
-                                                <i class="fa-brands fa-paypal"></i>
-                                                <i class="fa-brands fa-paypal"></i>
-                                            </a>
-
-                                            <a href="#" class="social-icon mb-3 rounded-circle border-0 bg-waze"
-                                                title="Flattr">
-                                                <i class="fa-brands fa-waze"></i>
-                                                <i class="fa-brands fa-waze"></i>
-                                            </a>
-
-                                            <a href="#"
-                                                class="social-icon mb-3 rounded-circle border-0 bg-android"
-                                                title="Android">
-                                                <i class="fa-brands fa-android"></i>
-                                                <i class="fa-brands fa-android"></i>
-                                            </a>
-
-                                            <a href="#"
-                                                class="social-icon mb-3 rounded-circle border-0 bg-discord"
-                                                title="Smashmag">
-                                                <i class="fa-brands fa-discord"></i>
-                                                <i class="fa-brands fa-discord"></i>
-                                            </a>
-
-                                            <a href="#"
+                                            <a href="/social/gmail"
                                                 class="social-icon mb-3 rounded-circle border-0 bg-google"
-                                                title="Google Plus">
+                                                title="Google Mail">
                                                 <i class="fa-brands fa-google"></i>
                                                 <i class="fa-brands fa-google"></i>
                                             </a>
@@ -906,51 +755,6 @@
                     </div>
 
                 </div><!-- #section-location end -->
-
-                <div class="clear"></div>
-
-                <!-- Upcoming Events
-    ============================================= -->
-                <div class="section bg-transparent m-0">
-
-                    <div class="container">
-                        <div class="mx-auto dark text-center" style="max-width: 850px">
-                            <span class="display-4 fw-bold gradient-underline">Upcoming Related Events</span>
-                            <p class="lead text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Fugiat nesciunt sint voluptatibus quibusdam veritatis quos dolorum quasi minus, rerum?
-                                Officia explicabo hic porro voluptatem ducimus dolor, dolore et. Magni, quidem?</p>
-                        </div>
-                        <div class="clear"></div>
-                        <div class="row align-items-stretch mt-3">
-                            <div class="col-md-4 mb-3">
-                                <a href="#" class="card dark" style="background-color: #FB6567">
-                                    <div class="card-body">
-                                        <h4 class="mb-4 font-body fw-normal h5">Opening Remarks And Keynote</h4>
-                                        <div class="d-flex flex-wrap justify-content-between">
-                                            <h5 class="font-body mb-0 text-uppercase ls-1">- 31st April, 2021</h5>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <a href="#" class="card dark" style="background-color: #F3317A">
-                                    <div class="card-body">
-                                        <h4 class="mb-4 font-body fw-normal h5">Hiring The Right Way in Ecosystem</h4>
-                                        <h5 class="font-body mb-0 text-uppercase ls-1">- 2nd May, 2021</h5>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <a href="#" class="card dark" style="background-color: #EC008B">
-                                    <div class="card-body">
-                                        <h4 class="mb-4 font-body fw-normal h5">Why Should I Choose Support</h4>
-                                        <h5 class="font-body mb-0 text-uppercase ls-1">- 3rd May, 2021</h5>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- #Related Events end -->
 
             </div>
         </section><!-- #content end -->
@@ -971,89 +775,27 @@
                             <div class="widget">
                                 <div class="row">
                                     <div class="col-lg-8 mb-4" style="color:#888;">
-                                        <img src="{!! asset('webpage/demos/app-landing/images/logo-dark@2x.png?' . rand(10000, 99999)) !!}" alt="Canvas Logo" class="d-block"
+                                        <img src="{!! asset('webpage/demos/conference/images/logo-h.png?' . rand(10000, 99999)) !!}" alt="MCI Logo" class="d-block"
                                             height="100">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, consequatur
-                                            facere molestiae iusto atque.</p>
+                                        <p>Living in creative industry by Medan Creative Industry</p>
 
-                                        <a href="#"
+                                        <a href="/social/facebook"
                                             class="social-icon si-small border-0 rounded-circle bg-facebook">
                                             <i class="fa-brands fa-facebook-f"></i>
                                             <i class="fa-brands fa-facebook-f"></i>
                                         </a>
 
-                                        <a href="#"
-                                            class="social-icon si-small border-0 rounded-circle bg-twitter">
-                                            <i class="fa-brands fa-twitter"></i>
-                                            <i class="fa-brands fa-twitter"></i>
+                                        <a href="/social/instagram"
+                                            class="social-icon si-small border-0 rounded-circle bg-instagram">
+                                            <i class="fa-brands fa-instagram"></i>
+                                            <i class="fa-brands fa-instagram"></i>
                                         </a>
-
-                                        <a href="#"
-                                            class="social-icon si-small border-0 rounded-circle bg-google">
-                                            <i class="fa-brands fa-google"></i>
-                                            <i class="fa-brands fa-google"></i>
-                                        </a>
-
-                                        <a href="#"
-                                            class="social-icon si-small border-0 rounded-circle bg-pinterest">
-                                            <i class="fa-brands fa-pinterest-p"></i>
-                                            <i class="fa-brands fa-pinterest-p"></i>
-                                        </a>
-
-                                        <a href="#"
-                                            class="social-icon si-small border-0 rounded-circle bg-vimeo">
-                                            <i class="fa-brands fa-vimeo-v"></i>
-                                            <i class="fa-brands fa-vimeo-v"></i>
                                         </a>
 
                                     </div>
                                 </div>
                             </div>
 
-                        </div>
-
-                        <div class="col-lg-8">
-                            <div class="row g-4">
-
-                                <div class="col-lg-3">
-                                    <div class="widget widget_links app_landing_widget_link">
-                                        <ul class="pt-3">
-                                            <li><a href="">Visiting Place</a></li>
-                                            <li><a href="">Nearby Hotels</a></li>
-                                            <li><a href="">Public Transports</a></li>
-                                            <li><a href="">Weather Info</a></li>
-                                            <li><a href="">Food Cost</a></li>
-                                            <li><a href="">Accommodation </a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="widget widget_links app_landing_widget_link">
-                                        <ul class="pt-3">
-                                            <li><a href="">Code Of Conduct</a></li>
-                                            <li><a href="">Speakers</a></li>
-                                            <li><a href="">Sponsors</a></li>
-                                            <li><a href="">FAQs</a></li>
-                                            <li><a href="">Volunteers</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div id="twitter" class="widget widget-twitter-feed pt-3">
-
-                                        <ul class="iconlist twitter-feed" data-username="envato" data-count="2"
-                                            style="--cnvs-iconlist-color:#EC008B;"></ul>
-
-                                        <div class="d-flex justify-content-end">
-                                            <a href="#"
-                                                class="button ls-1 text-uppercase fw-semibold button-gradient text-white">Follow
-                                                Us on Twitter</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
                         </div>
 
                     </div>
@@ -1067,7 +809,7 @@
                 <div class="container">
 
                     <div class="w-100 text-center text-md-start">
-                        Copyrights &copy; 2023 All Rights Reserved by Canvas Inc.<br>
+                        Copyrights &copy; 2023 Medan Creative Industry. All Rights Reserved by Boxity.<br>
                         <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy
                                 Policy</a></div>
                     </div>

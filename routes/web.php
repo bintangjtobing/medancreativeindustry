@@ -1,11 +1,10 @@
 <?php
 
-use App\orderCollection;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return Redirect::to('/mcbd2023');
 });
 Route::prefix('/social')->group(function () {
     Route::get('facebook', function () {
@@ -17,9 +16,16 @@ Route::prefix('/social')->group(function () {
     Route::get('youtube', function () {
         return Redirect::to('https://www.youtube.com/channel/');
     });
+    Route::get('gmail', function () {
+        return Redirect::to('mailto:medancreativeindustry@gmail.com');
+    });
 });
-Route::prefix('/p')->group(function () {
+Route::prefix('/business')->group(function () {
+    Route::get('proposal', function () {
+        return Redirect::to('/business/proposal-mcbd2023.pdf');
+    });
 });
+Route::get('mcbd2023', 'webpageController@index');
 
 // Dashboard
 Route::prefix('/v')->group(function () {
