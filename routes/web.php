@@ -20,6 +20,26 @@ Route::prefix('/social')->group(function () {
         return Redirect::to('mailto:medancreativeindustry@gmail.com');
     });
 });
+Route::prefix('/join')->group(function () {
+    Route::get('community', function () {
+        return Redirect::to('https://forms.gle/EydXWERz7mfHywsN8');
+    });
+});
+Route::prefix('/mcbd2023')->group(function () {
+    Route::get('/', function () {
+        return Redirect::to('https://forms.gle/aLwkbjwBSReDwZ2D7');
+    });
+    Route::get('volunteer', function () {
+        return Redirect::to('hhttps://forms.gle/Xhm9ZimddZ5ESDvf7');
+    });
+    Route::get('karya', function () {
+        return Redirect::to('https://forms.gle/QePKM9GSMA8AQMw7A');
+    });
+    Route::get('startup', function () {
+        return Redirect::to('https://forms.gle/x7QafsASqQdVwgJv5');
+    });
+});
+
 Route::prefix('/business')->group(function () {
     Route::get('proposal', function () {
         return Redirect::to('/business/proposal-mcbd2023.pdf');
