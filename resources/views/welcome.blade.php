@@ -262,11 +262,11 @@
                                 <div class="about-img position-relative">
                                     <div class="my-3 my-lg-0">
                                         <div class="gradient-bg"><img src="{!! asset('webpage/demos/conference/images/about/2.jpg?' . rand(10000, 99999)) !!}"
-                                                alt="About Image"></div>
+                                                alt="Image medancreativeindustry mcbd2023"></div>
                                     </div>
                                     <div data-0="top: 160px" data-end="top: 120px">
                                         <div class="gradient-bg"><img src="{!! asset('webpage/demos/conference/images/about/1.jpg?' . rand(10000, 99999)) !!}"
-                                                alt="About Image"></div>
+                                                alt="Image medancreativeindustry mcbd2023"></div>
                                     </div>
                                 </div>
                             </div>
@@ -288,7 +288,8 @@
                         <div class="row mx-auto dark" style="max-width: 1000px;">
                             <a href="#" class="team col-lg-4 col-sm-6 mb-5">
                                 <div class="team-image">
-                                    <img src="{!! asset('webpage/demos/conference/images/speakers/1.jpg?' . rand(10000, 99999)) !!}" alt="John Doe">
+                                    <img src="{!! asset('webpage/demos/conference/images/speakers/1.jpg?' . rand(10000, 99999)) !!}"
+                                        alt="Bintang Tobing | medancreativeindustry mcbd2023">
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
@@ -299,7 +300,8 @@
 
                             <a href="#" class="team col-lg-4 col-sm-6 mb-5">
                                 <div class="team-image">
-                                    <img src="{!! asset('webpage/demos/conference/images/speakers/2.jpg?' . rand(10000, 99999)) !!}" alt="John Doe">
+                                    <img src="{!! asset('webpage/demos/conference/images/speakers/2.jpg?' . rand(10000, 99999)) !!}"
+                                        alt="Aditya, ST | medancreativeindustry mcbd2023">
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
@@ -310,7 +312,8 @@
 
                             <a href="#" class="team col-lg-4 col-sm-6 mb-5">
                                 <div class="team-image">
-                                    <img src="{!! asset('webpage/demos/conference/images/speakers/3.jpg?' . rand(10000, 99999)) !!}" alt="John Doe">
+                                    <img src="{!! asset('webpage/demos/conference/images/speakers/3.jpg?' . rand(10000, 99999)) !!}"
+                                        alt="Heri Siregar | medancreativeindustry mcbd2023">
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
@@ -322,7 +325,8 @@
 
                             <a href="#" class="team col-lg-4 col-sm-6 mb-5">
                                 <div class="team-image">
-                                    <img src="{!! asset('webpage/demos/conference/images/speakers/4.jpg?' . rand(10000, 99999)) !!}" alt="John Doe">
+                                    <img src="{!! asset('webpage/demos/conference/images/speakers/4.jpg?' . rand(10000, 99999)) !!}"
+                                        alt="Ronaldo | medancreativeindustry mcbd2023">
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title">
@@ -594,71 +598,71 @@
                             <h4 class="font-body mb-5">Heroic Sponsors</h4>
                             <div class="d-flex flex-wrap align-items-center">
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/cnn.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a></div>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a></div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/github.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/google.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/paypal.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/vimeo.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a></div>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a></div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/slack.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a></div>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a></div>
                             </div>
                             <div class="line"></div>
                             <h4 class="font-body mb-5">Diamond Sponsors</h4>
                             <div class="d-flex flex-wrap align-items-center">
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/linkedin.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/nat-geo.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/jetblue.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/zillow.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/amazon.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                             </div>
                             <div class="line"></div>
                             <h4 class="font-body mb-5">Platinum Sponsors</h4>
                             <div class="d-flex flex-wrap align-items-center">
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/linkedin.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/nat-geo.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/jetblue.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/zillow.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/amazon.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                             </div>
                             <div class="line"></div>
                             <h4 class="font-body mb-5">Media Partners</h4>
                             <div class="d-flex flex-wrap align-items-center">
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/ps.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a></div>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a></div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/skype.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a></div>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a></div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/jetblue.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                                 <div class="flex-fill p-3"><a href="#"><img src="{!! asset('webpage/demos/conference/images/sponcors/netflix.svg?' . rand(10000, 99999)) !!}"
-                                            alt="Brands"></a>
+                                            alt="Brands for medancreativeindustry mcbd2023"></a>
                                 </div>
                             </div>
                             <div class="line"></div>
@@ -697,25 +701,25 @@
                                             data-lightbox="gallery">
                                             <a class="grid-item" href="{!! asset('webpage/demosconference/images/venue/full/1.jpg?' . rand(10000, 99999)) !!}"
                                                 data-lightbox="gallery-item"><img src="{!! asset('webpage/demos/conference/images/venue/1.jpg?' . rand(10000, 99999)) !!}"
-                                                    alt="Gallery Thumb 1"></a>
+                                                    alt="Gallery Thumb for medancreativeindustry mcbd2023"></a>
                                             <a class="grid-item" href="{!! asset('webpage/demosconference/images/venue/full/2.jpg?' . rand(10000, 99999)) !!}"
                                                 data-lightbox="gallery-item"><img src="{!! asset('webpage/demos/conference/images/venue/2.jpg?' . rand(10000, 99999)) !!}"
-                                                    alt="Gallery Thumb 2"></a>
+                                                    alt="Gallery Thumb for medancreativeindustry mcbd2023"></a>
                                             <a class="grid-item" href="{!! asset('webpage/demosconference/images/venue/full/3.jpg?' . rand(10000, 99999)) !!}"
                                                 data-lightbox="gallery-item"><img src="{!! asset('webpage/demos/conference/images/venue/3.jpg?' . rand(10000, 99999)) !!}"
-                                                    alt="Gallery Thumb 3"></a>
+                                                    alt="Gallery Thumb for medancreativeindustry mcbd2023"></a>
                                             <a class="grid-item" href="{!! asset('webpage/demosconference/images/venue/full/4.jpg?' . rand(10000, 99999)) !!}"
                                                 data-lightbox="gallery-item"><img src="{!! asset('webpage/demos/conference/images/venue/4.jpg?' . rand(10000, 99999)) !!}"
-                                                    alt="Gallery Thumb 4"></a>
+                                                    alt="Gallery Thumb for medancreativeindustry mcbd2023"></a>
                                             <a class="grid-item" href="{!! asset('webpage/demosconference/images/venue/full/5.jpg?' . rand(10000, 99999)) !!}"
                                                 data-lightbox="gallery-item"><img src="{!! asset('webpage/demos/conference/images/venue/5.jpg?' . rand(10000, 99999)) !!}"
-                                                    alt="Gallery Thumb 5"></a>
+                                                    alt="Gallery Thumb for medancreativeindustry mcbd2023"></a>
                                             <a class="grid-item" href="{!! asset('webpage/demosconference/images/venue/full/6.png?' . rand(10000, 99999)) !!}"
                                                 data-lightbox="gallery-item"><img src="{!! asset('webpage/demos/conference/images/venue/6.png?' . rand(10000, 99999)) !!}"
-                                                    alt="Gallery Thumb 6"></a>
+                                                    alt="Gallery Thumb for medancreativeindustry mcbd2023"></a>
                                             <a class="grid-item" href="{!! asset('webpage/demosconference/images/venue/full/7.png?' . rand(10000, 99999)) !!}"
                                                 data-lightbox="gallery-item"><img src="{!! asset('webpage/demos/conference/images/venue/7.png?' . rand(10000, 99999)) !!}"
-                                                    alt="Gallery Thumb 7"></a>
+                                                    alt="Gallery Thumb for medancreativeindustry mcbd2023"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 mb-4">
@@ -775,8 +779,8 @@
                             <div class="widget">
                                 <div class="row">
                                     <div class="col-lg-8 mb-4" style="color:#888;">
-                                        <img src="{!! asset('webpage/demos/conference/images/logo-h.png?' . rand(10000, 99999)) !!}" alt="MCI Logo" class="d-block"
-                                            height="100">
+                                        <img src="{!! asset('webpage/demos/conference/images/logo-h.png?' . rand(10000, 99999)) !!}" alt="MedanCreativeIndustry Logo"
+                                            class="d-block" height="100">
                                         <p>Living in creative industry by Medan Creative Industry</p>
 
                                         <a href="/social/facebook"
