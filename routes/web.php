@@ -6,6 +6,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return Redirect::to('/mcbd2023');
 });
+Route::get('/hello-there', function () {
+    return Redirect::to('https://linktr.ee/medancreativeind');
+});
 Route::prefix('/social')->group(function () {
     Route::get('facebook', function () {
         return Redirect::to('https://facebook.com');
@@ -18,6 +21,20 @@ Route::prefix('/social')->group(function () {
     });
     Route::get('gmail', function () {
         return Redirect::to('mailto:medancreativeindustry@gmail.com');
+    });
+});
+Route::prefix('/mcbd2023/daftar/')->group(function () {
+    Route::get('peserta', function () {
+        return Redirect::to('https://forms.gle/akotYoiVywrVqb7r9');
+    });
+    Route::get('startup', function () {
+        return Redirect::to('https://forms.gle/HazwwJA44W8zNL8k6');
+    });
+    Route::get('volunteer', function () {
+        return Redirect::to('https://forms.gle/UM8ZXF82hJwWMBEw6');
+    });
+    Route::get('pelaku-karya', function () {
+        return Redirect::to('https://forms.gle/QBjHHeq7oNxTHGWNA');
     });
 });
 Route::prefix('/join')->group(function () {
